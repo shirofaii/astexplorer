@@ -48,5 +48,5 @@ export default {
     return null;
   },
 
-  _ignoredProperties: new Set([]),
+  _ignoredProperties: new Set(['type']),
 };

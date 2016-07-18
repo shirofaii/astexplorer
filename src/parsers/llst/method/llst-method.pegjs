@@ -177,7 +177,7 @@ ret 'return' =
     })
 }
 
-temps =
+temps 'temps' =
 "|" vars:(ws variable:identifier ws {return variable})* "|" {return vars}
 
 blockParamList =
